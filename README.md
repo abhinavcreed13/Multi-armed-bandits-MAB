@@ -4,7 +4,7 @@ This project implements famous MAB algorithms and evaulates them on the basis of
 
 ## Offline evalution for algorithms without parameter tuning
 
-``
+```
 ....
     # Run offline evaluation for algorithms
     # EpsilonGreedy
@@ -23,5 +23,5 @@ This project implements famous MAB algorithms and evaulates them on the basis of
     mab = LinThompson(10, 10, params['lin_thompson'])
     results_LinThompson = offlineEvaluate(mab, arms, rewards, contexts, T)
 ....
-``
+```
 
