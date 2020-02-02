@@ -6,7 +6,7 @@ This project implements famous MAB algorithms and evaulates them on the basis of
 
 ``
 ....
-# Run offline evaluation for algorithms
+    # Run offline evaluation for algorithms
     # EpsilonGreedy
     mab = EpsGreedy(10, params['eps_greedy'])
     results_EpsGreedy = offlineEvaluate(mab, arms, rewards, contexts, T)
