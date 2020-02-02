@@ -25,3 +25,4 @@ results_LinThompson = offlineEvaluate(mab, arms, rewards, contexts, T)
 ....
 ```
 
+![Algorithms Evaluation](img1.png)
